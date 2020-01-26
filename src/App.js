@@ -558,7 +558,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className='page-section' id='contact' data-aos='zoom-in-left'>
+      <section className='page-section' id='contact' >
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 text-center hvr-buzz-out'>
