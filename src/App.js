@@ -51,17 +51,18 @@ const App = () => {
     {
       title: 'Tip Over Flow',
       caption: 'Online Q&A website where people can ask and answer questions',
-      url:'https://github.com/Gimnath-Perera/TipOverFlow-frontend'
+      url: 'https://github.com/Gimnath-Perera/TipOverFlow-frontend'
     },
     {
       title: 'Star Friends',
-      caption: 'A platform where fans can interect with their favourite artists',
-      url:''
+      caption:
+        'A platform where fans can interect with their favourite artists',
+      url: ''
     },
     {
       title: 'PR Studio',
       caption: 'A web platform where advertisers can publish their aricles',
-      url:''
+      url: ''
     }
   ];
   return (
@@ -344,17 +345,18 @@ const App = () => {
                     </div>
                     <div className='timeline-body'>
                       <p className='text-muted'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        BEng (Hons) Software Engineering is a fulltime honours
+                        degree awarded by Staffordshire University, UK. Where I
+                        have mastered my skills on programming langugaes such as
+                        Java, C#, C++ along with the advanced concepts of
+                        software development and various kind of SDLCs.
                       </p>
                     </div>
                   </div>
                 </li>
                 <li className='timeline-inverted'>
                   <div className='timeline-image'>
-                  <span className='fa-stack fa-4x hvr-bounce-in'>
+                    <span className='fa-stack fa-4x hvr-bounce-in'>
                       <i className='fa fa-android fa-stack-1x fa-inverse'></i>
                     </span>
                   </div>
@@ -367,10 +369,13 @@ const App = () => {
                     </div>
                     <div className='timeline-body'>
                       <p className='text-muted'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        The application was a simple e-trade application in
+                        which the customers can sign in to the app and buy cloth
+                        items from the system while the administrator can
+                        product management and user management. The application
+                        turned into developed in android (Java) and used
+                        numerous libraries, mysql was the database which turned
+                        into used along with suger ORM.
                       </p>
                     </div>
                   </div>
@@ -400,9 +405,7 @@ const App = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 text-center'>
-              <h2 className='section-heading text-uppercase'>
-               Blog
-              </h2>
+              <h2 className='section-heading text-uppercase'>Blog</h2>
               <h3 className='section-subheading text-muted'>
                 Lorem ipsum dolor sit amet consectetur.
               </h3>
@@ -558,12 +561,12 @@ const App = () => {
         </div>
       </section>
 
-      <section className='page-section' id='contact' >
+      <section className='page-section' id='contact'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 text-center hvr-buzz-out'>
               <h2 className='section-heading text-uppercase'>Let's Talk</h2>
-              <h3 className='section-subheading ' style={{color:'white'}}>
+              <h3 className='section-subheading ' style={{ color: 'white' }}>
                 If you have any request or question don't hesitate to contact
                 me.
               </h3>
