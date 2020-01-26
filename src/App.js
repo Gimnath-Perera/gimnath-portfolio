@@ -392,7 +392,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* <section
+      <section
         className='bg-light page-section'
         id='team'
         data-aos='zoom-in-right'
@@ -401,7 +401,7 @@ const App = () => {
           <div className='row'>
             <div className='col-lg-12 text-center'>
               <h2 className='section-heading text-uppercase'>
-                Our Amazing Team
+               Blog
               </h2>
               <h3 className='section-subheading text-muted'>
                 Lorem ipsum dolor sit amet consectetur.
@@ -513,7 +513,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className='py-5'>
         <div className='container'>
@@ -558,7 +558,7 @@ const App = () => {
         </div>
       </section>
 
-      <section className='page-section' id='contact' data-aos='zoom-in'>
+      <section className='page-section' id='contact' data-aos='zoom-in-left'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 text-center hvr-buzz-out'>
