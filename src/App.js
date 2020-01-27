@@ -4,6 +4,10 @@ import Portfolio from './components/Portfolio';
 import useWindowScrollPosition from '@rehooks/window-scroll-position';
 import Particles from 'react-particles-js';
 import AOS from 'aos';
+import cloudCode from './assets/img/icons/cloudCode.png';
+import grad from './assets/img/icons/grad.png';
+import yes from './assets/img/icons/yes.png';
+import engi from './assets/img/icons/engi.png';
 AOS.init({ duration: 1000, delay: 200 });
 
 const App = () => {
@@ -235,7 +239,7 @@ const App = () => {
               <p className='text-muted'>
                 Languages I speak:
                 <br />
-                React, Html, Angular, CSS, Sass
+                ReactJS, Html, Angular, CSS, Sass
               </p>
               <p className='text-muted'>
                 Dev Tools:
@@ -257,7 +261,7 @@ const App = () => {
               <p className='text-muted'>
                 Languages I speak:
                 <br />
-                Java, Python, Node, C#, PHP
+                Java, Python, NodeJS, C#, PHP
               </p>
               <p className='text-muted'>
                 Dev Tools:
@@ -286,9 +290,7 @@ const App = () => {
               <ul className='timeline'>
                 <li>
                   <div className='timeline-image'>
-                    <span className='fa-stack fa-4x hvr-bounce-in'>
-                      <i className='fa fa-laptop fa-stack-1x fa-inverse'></i>
-                    </span>
+                  <img class="rounded-circle img-fluid" src={cloudCode} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-right'>
                     <div className='timeline-heading'>
@@ -309,9 +311,7 @@ const App = () => {
                 </li>
                 <li className='timeline-inverted'>
                   <div className='timeline-image'>
-                    <span className='fa-stack fa-4x hvr-bounce-in'>
-                      <i className='fa fa-code fa-stack-1x fa-inverse'></i>
-                    </span>
+                  <img class="rounded-circle img-fluid"  src={yes}/>
                   </div>
                   <div className='timeline-panel' data-aos='fade-left'>
                     <div className='timeline-heading'>
@@ -332,9 +332,7 @@ const App = () => {
                 </li>
                 <li>
                   <div className='timeline-image'>
-                    <span className='fa-stack fa-4x hvr-bounce-in'>
-                      <i className='fa fa-graduation-cap fa-stack-1x fa-inverse'></i>
-                    </span>
+                  <img  class="rounded-circle img-fluid" src={engi}/>
                   </div>
                   <div className='timeline-panel' data-aos='fade-right'>
                     <div className='timeline-heading'>
@@ -356,9 +354,7 @@ const App = () => {
                 </li>
                 <li className='timeline-inverted'>
                   <div className='timeline-image'>
-                    <span className='fa-stack fa-4x hvr-bounce-in'>
-                      <i className='fa fa-android fa-stack-1x fa-inverse'></i>
-                    </span>
+                  <img class="rounded-circle img-fluid" src={grad} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-left'>
                     <div className='timeline-heading'>
@@ -369,7 +365,7 @@ const App = () => {
                     </div>
                     <div className='timeline-body'>
                       <p className='text-muted'>
-                        The application was a simple e-trade application in
+                        The application was a simple E-Commerce application in
                         which the customers can sign in to the app and buy cloth
                         items from the system while the administrator can
                         product management and user management. The application
@@ -404,7 +400,7 @@ const App = () => {
       >
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-12 text-center'>
+            <div className='col-lg-12 text-center hvr-buzz-out'>
               <h2 className='section-heading text-uppercase'>Blog</h2>
               <h3 className='section-subheading text-muted'>
                 Lorem ipsum dolor sit amet consectetur.
@@ -652,8 +648,8 @@ const App = () => {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-md-4'>
-              <span className='copyright'>
-                Copyright &copy; Your Website 2020
+              <span className='copyright' >
+                  ☎: +940770427478
               </span>
             </div>
             <div className='col-md-4'>
@@ -681,10 +677,10 @@ const App = () => {
             <div className='col-md-4'>
               <ul className='list-inline quicklinks'>
                 <li className='list-inline-item'>
-                  <a href='#'>Privacy Policy</a>
+                  <p style={{fontSize: 16}}>📧: </p>
                 </li>
                 <li className='list-inline-item'>
-                  <a href='#'>Terms of Use</a>
+                  <p>gimnathperera@gmail.com</p>
                 </li>
               </ul>
             </div>
