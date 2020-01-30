@@ -8,6 +8,7 @@ import cloudCode from './assets/img/icons/cloudCode.png';
 import grad from './assets/img/icons/grad.png';
 import yes from './assets/img/icons/yes.png';
 import engi from './assets/img/icons/engi.png';
+
 AOS.init({ duration: 1000, delay: 200 });
 
 const App = () => {
@@ -55,18 +56,23 @@ const App = () => {
     {
       title: 'Tip Over Flow',
       caption: 'Online Q&A website where people can ask and answer questions',
-      url: 'https://github.com/Gimnath-Perera/TipOverFlow-frontend'
+      url: 'https://github.com/Gimnath-Perera/TipOverFlow-frontend',
+      img: 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+    },
+    {
+      title: 'PR Studio',
+      caption: 'A web platform where advertisers can publish their aricles',
+      url: 'https://github.com/Gimnath-Perera/pr-studio-backend',
+      img:
+        'https://images.squarespace-cdn.com/content/52d56e4ae4b0e9203b2a80af/1430249026901-VYX9N2CGLOZWQTT63L8D/image-asset.jpeg?content-type=image%2Fjpeg'
     },
     {
       title: 'Star Friends',
       caption:
         'A platform where fans can interect with their favourite artists',
-      url: ''
-    },
-    {
-      title: 'PR Studio',
-      caption: 'A web platform where advertisers can publish their aricles',
-      url: ''
+      url: 'Journey to the Savage Planet',
+      img:
+        'https://blog.reverbnation.com/wp-content/uploads/2017/08/live-mistake-1500px.jpg'
     }
   ];
   return (
@@ -142,7 +148,7 @@ const App = () => {
         </div>
       </nav>
 
-      <header className='masthead'>
+      <header className='masthead' id='page-top'>
         <div className='container'>
           <Particles
             params={particaleOpt}
@@ -194,12 +200,12 @@ const App = () => {
                 Who is this guy ?
               </h2>
               <h3 className='section-subheading text-muted'>
-                Since beginning my journey as a freelance designer nearly 8
-                years ago, I've done remote work for agencies, consulted for
-                startups, and collaborated with talented people to create
-                digital products for both business and consumer use. I'm quietly
-                confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time.
+                Since beginning my journey as a freelance developer nearly 4
+                years ago, I've done remote work for agencies,I have
+                collaborated with skilled people to create digital products for
+                both business and consumer purposes. I'm quietly confident,
+                naturally curious, and keep improving myself along with the
+                cutting edge technologies.
               </h3>
             </div>
           </div>
@@ -223,7 +229,7 @@ const App = () => {
               <p className='text-muted'>
                 Design Tools:
                 <br />
-                Figma
+                Figma, Adobe XD
               </p>
             </div>
             <div className='col-md-4 hvr-buzz-out'>
@@ -290,7 +296,7 @@ const App = () => {
               <ul className='timeline'>
                 <li>
                   <div className='timeline-image'>
-                  <img class="rounded-circle img-fluid" src={cloudCode} />
+                    <img class='rounded-circle img-fluid' src={cloudCode} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-right'>
                     <div className='timeline-heading'>
@@ -301,17 +307,17 @@ const App = () => {
                     </div>
                     <div className='timeline-body'>
                       <p className='text-muted'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        Working with a reputated company was one of my dreams
+                        which came to alive recently. I learn a new thing each
+                        and everyday while improving my technicle skills along
+                        with transforming myself as a good team player.
                       </p>
                     </div>
                   </div>
                 </li>
                 <li className='timeline-inverted'>
                   <div className='timeline-image'>
-                  <img class="rounded-circle img-fluid"  src={yes}/>
+                    <img class='rounded-circle img-fluid' src={yes} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-left'>
                     <div className='timeline-heading'>
@@ -322,17 +328,18 @@ const App = () => {
                     </div>
                     <div className='timeline-body'>
                       <p className='text-muted'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                        temporibus qui quibusdam, recusandae sit vero unde, sed,
-                        incidunt et ea quo dolore laudantium consectetur!
+                        I started my freelancing career as a web developer. I
+                        was even lucky enough to pass on the first project
+                        application effectively with in the ensured time-range.
+                        From that point forward I have finished different sorts
+                        of projects as a freelance developer.
                       </p>
                     </div>
                   </div>
                 </li>
                 <li>
                   <div className='timeline-image'>
-                  <img  class="rounded-circle img-fluid" src={engi}/>
+                    <img class='rounded-circle img-fluid' src={engi} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-right'>
                     <div className='timeline-heading'>
@@ -354,7 +361,7 @@ const App = () => {
                 </li>
                 <li className='timeline-inverted'>
                   <div className='timeline-image'>
-                  <img class="rounded-circle img-fluid" src={grad} />
+                    <img class='rounded-circle img-fluid' src={grad} />
                   </div>
                   <div className='timeline-panel' data-aos='fade-left'>
                     <div className='timeline-heading'>
@@ -393,7 +400,7 @@ const App = () => {
         </div>
       </section>
 
-      <section
+      {/* <section
         className='bg-light page-section'
         id='team'
         data-aos='zoom-in-right'
@@ -403,7 +410,7 @@ const App = () => {
             <div className='col-lg-12 text-center hvr-buzz-out'>
               <h2 className='section-heading text-uppercase'>Blog</h2>
               <h3 className='section-subheading text-muted'>
-                Lorem ipsum dolor sit amet consectetur.
+              Reading is important to all of us 💬
               </h3>
             </div>
           </div>
@@ -555,7 +562,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='page-section' id='contact'>
         <div className='container'>
@@ -564,7 +571,7 @@ const App = () => {
               <h2 className='section-heading text-uppercase'>Let's Talk</h2>
               <h3 className='section-subheading ' style={{ color: 'white' }}>
                 If you have any request or question don't hesitate to contact
-                me.
+                me 📞
               </h3>
             </div>
           </div>
@@ -648,9 +655,7 @@ const App = () => {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-md-4'>
-              <span className='copyright' >
-                  ☎: +940770427478
-              </span>
+              <span className='copyright'>☎: +940770427478</span>
             </div>
             <div className='col-md-4'>
               <ul className='list-inline social-buttons'>
@@ -677,7 +682,7 @@ const App = () => {
             <div className='col-md-4'>
               <ul className='list-inline quicklinks'>
                 <li className='list-inline-item'>
-                  <p style={{fontSize: 16}}>📧: </p>
+                  <p style={{ fontSize: 16 }}>📧: </p>
                 </li>
                 <li className='list-inline-item'>
                   <p>gimnathperera@gmail.com</p>

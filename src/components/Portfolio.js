@@ -12,19 +12,20 @@ const Portfolio = ({ portfolioLinks }) => {
           <div className='col-lg-12 text-center hvr-buzz-out'>
             <h2 className='section-heading text-uppercase '>My Recent Work</h2>
             <h3 className='section-subheading text-muted'>
-              Here are a few recent design projects. Want to see more?
+              Here are a few recent projects. Want to see more?
               <b
                 className='cssanimation fadeIn infinite'
                 style={{ cursor: 'pointer', marginLeft: 4 }}
               >
-                Email me.
+                Email me <span><i className="fa fa-envelope"></i></span>
               </b>
             </h3>
           </div>
         </div>
         <div className='row'>
           {portfolioLinks &&
-            portfolioLinks.map(({ title, caption, url }, index) => (
+            portfolioLinks.map(({ title, caption, url,img }, index) => (
+            
               <div
                 className='col-md-4 col-sm-6 portfolio-item hvr-grow '
                 onClick={() => {
@@ -42,8 +43,9 @@ const Portfolio = ({ portfolioLinks }) => {
                   </div>
                   <img
                     className='img-fluid'
-                    src='https://i.picsum.photos/id/0/5616/3744.jpg'
+                    src={img}
                     alt=''
+                    style={{maxHeight:220}}
                   />
                 </a>
                 <div className='portfolio-caption'>
